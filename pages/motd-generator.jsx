@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 export default class extends Component {
   render = () => (
     <Layout title="MOTD Generator">
-      <a href="https://motd-generator.nathfreder.dev/">
+      <a href="https://motd-generator.nathfreder.dev/" target="_blank">
         <Button variant="secondary">
           Open in new tab
         </Button>
