@@ -1,76 +1,20 @@
 {
 	"songs": [
-		[
-			"Nyaw",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"Final Escape (old)",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"Final Escape (new)",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"Betrayal",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"Friends To Your End",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"Billionaire-brawl",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		]
+		["Nyaw", "kapi", [146, 113, 253]],
+		["Final Escape (old)", "dad", [146, 113, 253]],
+		["Final Escape (new)", "dad", [146, 113, 253]],
+		["Betrayal", "dad", [146, 113, 253]],
+		["Friends To Your End", "dad", [146, 113, 253]],
+		["Billionaire-brawl", "dad", [146, 113, 253]]
 	],
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "stage",
 	"difficulties": "Normal",
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
+	"weekCharacters": ["dad", "bf", "gf"],
 	"storyName": "whuh",
 	"weekName": "UwU    (sorry)",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
+	"freeplayColor": [146, 113, 253],
 	"hideStoryMode": true,
 	"weekBefore": "tutorial",
 	"startUnlocked": true

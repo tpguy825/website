@@ -2606,12 +2606,21 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "dad",
+		"player2": "kapi",
+		"events": [
+			[10449.4382022472, [["Play Animation", "Meow!", "KAPI"]]],
+			[45505.6179775281, [["Play Animation", "Meow!", "KAPI"]]],
+			[68426.9662921348, [["Play Animation", "Meow!", "KAPI"]]],
+			[95393.2584269664, [["Hey!", "BF", ""]]],
+			[122443.820224719, [["Play Animation", "Meow!", "KAPI"]]],
+			[146292.134831461, [["Play Animation", "Bruh.", "KAPI"]]]
+		],
 		"player3": null,
 		"song": "Nyaw",
 		"needsVoices": true,
 		"sections": 0,
 		"validScore": true,
+		"stage": "kapistage",
 		"speed": 2.5,
 		"bpm": 178
 	}

@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				405,
+				10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "black down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				200,
+				21
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "black right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				471,
+				133
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "black up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				543,
+				43
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "black left",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				430,
+				30
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "black idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				410,
+				10
+			],
+			"indices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"fps": 24,
+			"anim": "slash",
+			"loop": false,
+			"name": "black attack"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/black",
+	"healthicon": "black",
+	"flip_x": false,
+	"healthbar_colors": [
+		43,
+		43,
+		43
+	],
+	"sing_duration": 2.9,
+	"scale": 0.8
+}
