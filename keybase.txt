@@ -1,93 +1,47 @@
 ==================================================================
-
 https://keybase.io/tpguy825
-
 --------------------------------------------------------------------
-
 I hereby claim:
-
   * I am an admin of https://www.tpguy825.cf
-
   * I am tpguy825 (https://keybase.io/tpguy825) on keybase.
-
   * I have a public key ASCleRLnIBPtXODYXIJjCkHge-JtPUwH9Fg-_VGq8I9HOQo
-
 To do so, I am signing this object:
-
 {
-
-  "body": {
-
-    "key": {
-
-      "eldest_kid": "0120a57912e72013ed5ce0d85c82630a41e07be26d3d4c07f4583efd51aaf08f47390a",
-
+	  "body": {
+	    "key": {
+	      "eldest_kid": "0120a57912e72013ed5ce0d85c82630a41e07be26d3d4c07f4583efd51aaf08f47390a",
       "host": "keybase.io",
-
       "kid": "0120a57912e72013ed5ce0d85c82630a41e07be26d3d4c07f4583efd51aaf08f47390a",
-
       "uid": "caca7bc8785efc931e794eaa8a51ce19",
-
       "username": "tpguy825"
-
     },
-
     "merkle_root": {
-
-      "ctime": 1682176785,
-
+	      "ctime": 1682176785,
       "hash": "20ef3a1a83edc734a0151468be664d5bb59895313759fed2386797de417f5260f9df27290ace0553bbca01c4d4355cbfb5714c3e7895f0235cd25521b9874e3e",
-
       "hash_meta": "a299bf446e7d190a6537a0e0afff10a9889ba7fd3fc034ebb7eaa0fa62a29fec",
-
       "seqno": 24365970
-
     },
-
     "service": {
-
-      "entropy": "96rXehybOdNKVbpR0+0LVTnH",
-
+	      "entropy": "96rXehybOdNKVbpR0+0LVTnH",
       "hostname": "www.tpguy825.cf",
-
       "protocol": "https:"
-
     },
-
     "type": "web_service_binding",
-
     "version": 2
-
   },
-
   "client": {
-
-    "name": "keybase.io go client",
-
+	    "name": "keybase.io go client",
     "version": "6.0.1"
-
   },
-
   "ctime": 1682176916,
-
   "expire_in": 504576000,
-
   "prev": "f5ac451649d8852343f6c958556cd91113b962c6e1b2fc25814483996150a2cc",
-
   "seqno": 16,
-
   "tag": "signature"
-
 }
-
 which yields the signature:
-
 hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpXkS5yAT7Vzg2FyCYwpB4HvibT1MB/RYPv1RqvCPRzkKp3BheWxvYWTESpcCEMQg9axFFknYhSND9slYVWzZERO5YsbhsvwlgUSDmWFQoszEIGE7Uw09TTHSn/K8dTqEUdq3lDFNdfFBZPrBXRXOFCLlAgHCo3NpZ8RADC8tjlQkPNYqzRYl5gCvNeWe8tn6F3KZw4zDcDGRwBLHA4eJB3+YQz6zLdImbIZ0Qq8RBtiLcAnvI1dUP67nCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIANzd8bl+4FcPB8jG8OCCmzlcnJFBi+kgHhvNku3bZz7o3RhZ80CAqd2ZXJzaW9uAQ==
-
 And finally, I am proving ownership of this host by posting or
-
 appending to this document.
-
 View my publicly-auditable identity here: https://keybase.io/tpguy825
-
 ==================================================================
