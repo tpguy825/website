@@ -2,10 +2,7 @@
 	"animations": [
 		{
 			"loop": false,
-			"offsets": [
-				405,
-				10
-			],
+			"offsets": [0, -30],
 			"anim": "singDOWN",
 			"fps": 24,
 			"name": "black down",
@@ -13,10 +10,7 @@
 		},
 		{
 			"loop": false,
-			"offsets": [
-				200,
-				21
-			],
+			"offsets": [0, 27],
 			"anim": "singRIGHT",
 			"fps": 24,
 			"name": "black right",
@@ -24,10 +18,7 @@
 		},
 		{
 			"loop": false,
-			"offsets": [
-				471,
-				133
-			],
+			"offsets": [-6, 50],
 			"anim": "singUP",
 			"fps": 24,
 			"name": "black up",
@@ -35,10 +26,7 @@
 		},
 		{
 			"loop": false,
-			"offsets": [
-				543,
-				43
-			],
+			"offsets": [-9, 10],
 			"anim": "singLEFT",
 			"fps": 24,
 			"name": "black left",
@@ -46,51 +34,20 @@
 		},
 		{
 			"loop": true,
-			"offsets": [
-				430,
-				30
-			],
+			"offsets": [0, 0],
 			"anim": "idle",
 			"fps": 24,
 			"name": "black idle",
 			"indices": []
-		},
-		{
-			"offsets": [
-				410,
-				10
-			],
-			"indices": [
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12
-			],
-			"fps": 24,
-			"anim": "slash",
-			"loop": false,
-			"name": "black attack"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/black",
-	"position": [
-		0,
-		0
-	],
+	"position": [-200, 0],
+	"camera_position": [0, 0],
 	"healthicon": "black",
 	"flip_x": false,
-	"healthbar_colors": [
-		43,
-		43,
-		43
-	],
+	"healthbar_colors": [43, 43, 43],
 	"sing_duration": 2.9,
 	"scale": 0.8
 }
