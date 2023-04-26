@@ -11,7 +11,7 @@
 				window.location.replace("/fnf/");
 			}
 
-			fetch("assets/data/custom-version.txt")
+			fetch("assets/data/custom-version.txt", {cache: "force-cache"})
 				.then((r) => r.text())
 				.then((currentver) => {
 					fetch(
