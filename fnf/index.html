@@ -15,8 +15,7 @@
 				.then((r) => r.text())
 				.then((currentver) => {
 					fetch(
-						"https://raw.githubusercontent.com/tpguy825/website/main/fnf/assets/data/custom-version.txt",
-					)
+						"https://raw.githubusercontent.com/tpguy825/website/main/fnf/assets/data/custom-version.txt", { cache: "no-cache" })
 						.then((r) => r.text())
 						.then((latestver) => {
 							if (currentver !== latestver) {
