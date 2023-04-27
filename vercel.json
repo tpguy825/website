@@ -1,7 +1,7 @@
 {
     "headers": [
         {
-            "source": "/(.*)\.(ogg|mp3|png|xml|json)",
+            "source": "/(.*).(ogg|mp3|png|xml|json)",
             "headers" : [
                 {
                     "key" : "Cache-Control",
