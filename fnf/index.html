@@ -7,8 +7,12 @@
 		<title>Friday Night Funkin': Psych Engine</title>
 
 		<script>
-			if (window.location.pathname === "/fnf") {
+			if (window.location.pathname === "/website/fnf") {
 				window.location.replace("/fnf/");
+			} else if (window.location.port !== "42069" && window.location.pathname !== "/website/fnf/") {
+				window.location.replace("http://fnf.tpguy825.cf:42069/index.html")
+			} else if (window.location.pathname.endsWith("/fnf")) {
+				window.location.replace(window.location.pathname + "/");
 			}
 
 			fetch("assets/data/custom-version.txt", {cache: "force-cache"})
