@@ -8,32 +8,8 @@
 
 		<script>
 			if (window.location.hostname === "tpguy825.cf" || window.location.hostname === "www.tpguy825.cf") {
-				window.location.replace("https://tpguy825.github.io/website/fnf/index.html")
+				window.location.replace("https://tpguy825.github.io/website/fnf/index.html");
 			}
-
-			fetch("assets/data/custom-version.txt", {cache: "force-cache"})
-				.then((r) => r.text())
-				.then((currentver) => {
-					fetch(
-						"https://raw.githubusercontent.com/tpguy825/website/main/fnf/assets/data/custom-version.txt",
-					)
-						.then((r) => r.text())
-						.then((latestver) => {
-							if (currentver !== latestver) {
-								let message = [
-									"Uh oh, looks like you're running an outdated version!",
-									"You are running v" + currentver + " and the latest version is v" + latestver + ".",
-									"Please clear your cache and refresh the page to update.",
-									"Thanks!"
-								];
-								alert(message.join("\n"));
-							}
-						}).catch(e => {
-							console.error("yo your internet sucks (cant get latest version)")
-						});
-				}).catch(e => {
-					console.error("uhhhhhhh can't get your version (this should never happen caching should happen)")
-				});
 		</script>
 		<link rel="shortcut icon" type="image/png" href="./favicon.png" />
 		<script type="text/javascript" src="./PsychEngine.js"></script>
@@ -74,16 +50,14 @@
 			@font-face {
 				font-family: "Pixel Arial 11 Bold";
 				src: url("assets/fonts/pixel.eot?#iefix") format("embedded-opentype"),
-					url("assets/fonts/pixel.woff") format("woff"),
-					url("assets/fonts/pixel.otf") format("truetype");
+					url("assets/fonts/pixel.woff") format("woff"), url("assets/fonts/pixel.otf") format("truetype");
 				font-weight: normal;
 				font-style: normal;
 			}
 			@font-face {
 				font-family: "VCR OSD Mono";
 				src: url("assets/fonts/vcr.eot?#iefix") format("embedded-opentype"),
-					url("assets/fonts/vcr.woff") format("woff"),
-					url("assets/fonts/vcr.ttf") format("truetype"),
+					url("assets/fonts/vcr.woff") format("woff"), url("assets/fonts/vcr.ttf") format("truetype"),
 					url("assets/fonts/vcr.svg#VCR%20OSD%20Mono") format("svg");
 				font-weight: normal;
 				font-style: normal;
@@ -121,4 +95,3 @@
 		</script>
 	</body>
 </html>
-
