@@ -16,7 +16,7 @@ Solution (windows):
 1. Press the windows key
 2. Paste in this command:
 ```cmd
-cmd /c "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" http://tpguy825.github.io/website/fnf/ --max-old-space-size=8192
+cmd /c chrome http://tpguy825.github.io/website/fnf/ --max-old-space-size=8192
 ```
 3. Chrome should open to the webpage and it should (fingers crossed) work alright
 
