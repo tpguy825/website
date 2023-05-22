@@ -50,16 +50,14 @@
 			@font-face {
 				font-family: "Pixel Arial 11 Bold";
 				src: url("assets/fonts/pixel.eot?#iefix") format("embedded-opentype"),
-					url("assets/fonts/pixel.woff") format("woff"),
-					url("assets/fonts/pixel.otf") format("truetype");
+					url("assets/fonts/pixel.woff") format("woff"), url("assets/fonts/pixel.otf") format("truetype");
 				font-weight: normal;
 				font-style: normal;
 			}
 			@font-face {
 				font-family: "VCR OSD Mono";
 				src: url("assets/fonts/vcr.eot?#iefix") format("embedded-opentype"),
-					url("assets/fonts/vcr.woff") format("woff"),
-					url("assets/fonts/vcr.ttf") format("truetype"),
+					url("assets/fonts/vcr.woff") format("woff"), url("assets/fonts/vcr.ttf") format("truetype"),
 					url("assets/fonts/vcr.svg#VCR%20OSD%20Mono") format("svg");
 				font-weight: normal;
 				font-style: normal;
@@ -73,15 +71,6 @@
 				font-weight: normal;
 				font-style: normal;
 			}
-			@font-face {
-				font-family: "Monsterrat";
-				src: url("flixel/fonts/monsterrat.eot?#iefix") format("embedded-opentype"),
-					url("flixel/fonts/monsterrat.woff") format("woff"),
-					url("flixel/fonts/monsterrat.ttf") format("truetype"),
-					url("flixel/fonts/monsterrat.svg#Monsterrat") format("svg");
-				font-weight: normal;
-				font-style: normal;
-			}
 		</style>
 	</head>
 	<body>
@@ -92,9 +81,8 @@
 
 		<div id="openfl-content"></div>
 
-		<script type="text/javascript">
-			lime.embed("PsychEngine", "openfl-content", 1280, 720, { parameters: {} });
+		<script>
+			lime.embed("PsychEngine", "openfl-content", 1920, 1080, { parameters: {} });
 		</script>
 	</body>
 </html>
-
