@@ -54,3 +54,60 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/tpguy825
 
 ==================================================================
+
+==================================================================
+https://keybase.io/tpguy825
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tpyn.uk
+  * I am tpguy825 (https://keybase.io/tpguy825) on keybase.
+  * I have a public key ASCYs8JyWW7i6BOeQqR1trRpe61s_2JriZdSnC6n91_5qgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a57912e72013ed5ce0d85c82630a41e07be26d3d4c07f4583efd51aaf08f47390a",
+      "host": "keybase.io",
+      "kid": "012098b3c272596ee2e8139e42a475b6b4697bad6cff626b8997529c2ea7f75ff9aa0a",
+      "uid": "caca7bc8785efc931e794eaa8a51ce19",
+      "username": "tpguy825"
+    },
+    "merkle_root": {
+      "ctime": 1717520837,
+      "hash": "bb7fcd5df23884175a672a232b66c6f3bd5803585d114200a2dbc96b8f562403247f865e9e665212f116a1055a72187c537d58a1498f6d8563079a12fe1e0d95",
+      "hash_meta": "8ed1a63bef04e10e0c3d9d41bad4634207e621e4107ce9b8cdede5ec94ba0c18",
+      "seqno": 25795281
+    },
+    "service": {
+      "entropy": "8Ncj6sW2sIc+WU2yX/UsnoiW",
+      "hostname": "tpyn.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.3.1"
+  },
+  "ctime": 1717520893,
+  "expire_in": 504576000,
+  "prev": "9bbc2634e49531ed5344914fedd5f410f4dbdd6d827987bb7f425fbce89f7f22",
+  "seqno": 35,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmLPCcllu4ugTnkKkdba0aXutbP9ia4mXUpwup/df+aoKp3BheWxvYWTESpcCI8Qgm7wmNOSVMe1TRJFP7dX0EPTb3W2CeYe7f0JfvOiffyLEIJey/6/Umf9aXtDrYbjmYxcjIqaM30TLHfUIhrbvt43AAgHCo3NpZ8RAZOAmi3iaLtGdZUDszNp4y+jQElkBVBeNUGZSNqG3cqKNz/krnmuroXdqYW73HFn1+QHTBYyJeHqobBCFds6VCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIO2ycsogxXrtCjZqwNDFiUwOggR8tfbbSi7utfepmzcmo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tpguy825
+
+==================================================================
